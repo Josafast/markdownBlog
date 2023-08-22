@@ -1,0 +1,13 @@
+{
+    "name": "josafast/markdown-blog",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Josafat",
+            "email": "jsftqjd@gmail.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
