@@ -5,7 +5,8 @@ RUN apt-get update && apt-get install -y git \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /var/www/html
-COPY . .
+RUN git config --global --add safe.directory .
+RUN git clone https://github.com/Josafast/markdownBlog.git .
 
 RUN composer install --no-progress --no-interaction
 

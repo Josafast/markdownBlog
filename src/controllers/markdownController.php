@@ -1,6 +1,5 @@
 <?php
 
-  include(__DIR__.'/../php/parsedown.php');
   class MarkdownPages {
     protected $markdownDIR = __DIR__.'/../markdown/';
 
